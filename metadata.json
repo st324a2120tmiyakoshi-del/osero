@@ -1,0 +1,6 @@
+{
+  "name": "裏切りの盤上（リバース・フィールド）",
+  "description": "バトルアニメ・能力バトル風の本格オセロ・リバース。挟撃反転、絶対聖域、全滅返しの戦局をタイマーと詳細ターン履歴で制覇せよ。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px rgba(225, 29, 72, 0.8), 0 0 20px rgba(225, 29, 72, 0.4);
+  }
+  .text-glow-blue {
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.8), 0 0 20px rgba(59, 130, 246, 0.4);
+  }
+  .box-glow {
+    box-shadow: 0 0 15px rgba(225, 29, 72, 0.5), inset 0 0 10px rgba(225, 29, 72, 0.2);
+  }
+  .box-glow-blue {
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.5), inset 0 0 10px rgba(59, 130, 246, 0.2);
+  }
+}
+
+body {
+  font-family: 'Shippori Mincho', 'Noto Serif JP', serif;
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(20, 0, 10, 1) 0%, rgba(5, 5, 5, 1) 100%),
+    linear-gradient(rgba(225, 29, 72, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(225, 29, 72, 0.03) 1px, transparent 1px);
+  background-size: 100% 100%, 40px 40px, 40px 40px;
+}
